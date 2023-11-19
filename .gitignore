@@ -1,0 +1,33 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with: go test -c
+*.test
+
+# Environment files
+.env
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Fresh
+tmp
+
+# go files
+main
+streamer
+
+
+#GoLand IDE
+.idea/
+
+# VSCode
+.vscode
+
+# Unit test files
+junit.xml
+*.coverprofile
